@@ -1,4 +1,4 @@
-import { getPlayerStatus } from '../status.js';
+import getPlayerStatus from '../status.js';
 
 describe('getPlayerStatus', () => {
   test('возвращает "healthy", когда здоровье > 50', () => {

@@ -1,4 +1,4 @@
-import { sortCharactersByHealth } from '../characters.js';
+import sortCharactersByHealth from '../characters.js';
 
 describe('sortCharactersByHealth', () => {
   test('сортирует героев по убыванию здоровья', () => {

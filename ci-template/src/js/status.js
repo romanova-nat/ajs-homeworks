@@ -1,4 +1,4 @@
-export function getPlayerStatus(player) {
+export default function getPlayerStatus(player) {
   const { health } = player;
 
   if (health > 50) {
